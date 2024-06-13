@@ -15,7 +15,7 @@ public class Homepage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	By viewBtn_Zara=By.xpath("(/button[contains(text(),' View')])[1]");
+	By viewBtn_Zara=By.xpath("(//button[contains(text(),' View')])[1]");
 	By viewBtn_Iphone=By.xpath("(//button[contains(text(),' View')])[3]");
 	
 	@FindBy(xpath="//p[contains(text(),'Automation Practice')]")

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Fita Selenium Training]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.letsshop.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="LetsShop Automation Test(failed)" verbose="0">
+    <classes>
+      <class name="com.letshoptests.TestCase1">
+        <methods>
+          <include name="OpeningURL"/>
+          <include name="closeConnection"/>
+          <include name="logintoApp"/>
+          <include name="selectAndAddProcutToCart"/>
+        </methods>
+      </class> <!-- com.letshoptests.TestCase1 -->
+    </classes>
+  </test> <!-- LetsShop Automation Test(failed) -->
+</suite> <!-- Failed suite [Fita Selenium Training] -->
